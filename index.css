@@ -1,0 +1,32 @@
+/* 아이디를 선택할 때는 #으로 아이디임을 표시합니다. */
+h1{
+    color: red;
+    background-color: #f8c9c9;
+}
+#x{
+    width: 100px;
+}
+
+#y{
+    width: 100px;
+}
+
+#result{
+    width: 200px;
+}
+/* 클래스를 선택할 때는 .으로 클래스임을 표시합니다. */
+.calc{
+    background-color: gray;
+}
+/* 특정 속성을 가지는 태그 */
+input[type="button"]{
+    width: 50px;
+    height: 50px;
+    color: red;
+    background-color: #f8c9c9;
+}
+/* 호버 */
+.calc:hover{
+    background-color: #f8c9c9;
+    height: 400px;
+}
